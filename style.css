@@ -1,0 +1,120 @@
+*
+{
+    box-sizing: border-box;
+}
+/*## Coolors */
+:root
+{
+    --Cyan: hsl(180, 66%, 49%);
+    --Dark-Violet: hsl(257, 27%, 26%);
+    --Red: hsl(0, 87%, 67%);
+    --Gray: hsl(0, 0%, 75%);
+    --Grayish-Violet: hsl(257, 7%, 63%);
+    --Very-Dark-Blue: hsl(255, 11%, 22%);
+    --Very-Dark-Violet: hsl(260, 8%, 14%);
+}
+body
+{
+    margin: 0;
+
+}
+
+.header
+{
+    position: relative;
+    width: 100%;
+    padding: 20px;
+}
+.header .head 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .nav-list
+{
+    position: relative;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    /* align-items: center; */
+    display: none;
+}
+.nav-list .nav-item
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    /* align-items: stretch; */
+}
+.nav-item li a 
+{
+    position: relative;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 14px;
+}
+.sign-up
+{
+    background-color: var(--Cyan);
+    color: #fff;
+    align-items: center;
+    padding: 5px 12px;
+    justify-content: center;
+    display: flex;
+    border-radius: 18px;
+}
+.menu 
+{
+    position: relative;
+    min-height: 100vh;
+}
+.bdy1 
+{
+    position: relative;
+    min-height: 50vh;
+    width: 100vw;
+    overflow: hidden;
+}
+.bdy1 .img 
+{
+    min-height: 50vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.bdy1 .img img 
+{
+    position: absolute;
+    top: 0;
+    right: -50px;
+    width: 100%;
+    height: 100%;
+}
+.bdy2
+{
+    position: relative;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .nav-list
+    {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
