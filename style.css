@@ -16,7 +16,7 @@
 body
 {
     margin: 0;
-
+    font-size: 18px;
 }
 
 .header
@@ -106,6 +106,22 @@ body
 {
     position: relative;
     text-align: center;
+    margin-bottom: 50px;
+}
+.btn{
+    padding: 14px 24px;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    outline: none;
+    border-radius: 25px;
+    background-color: var(--Cyan);
+}
+.section{
+    position: relative;
+    margin: 0;
+    padding: 20px;
+    background-color: var(--Gray);
 }
 
 @media screen and (max-width: 600px) {
